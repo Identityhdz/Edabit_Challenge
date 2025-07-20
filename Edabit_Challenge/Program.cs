@@ -17,6 +17,7 @@ public class Program
         _service.countTrue(new bool[] { false, false, true });
         _service.ReverseAndNot(123);
         _service.HackerSpeak("Hello World");
+        _service.SevenBoom(new int[] { 11, 22, 31, 4, 5, 6, 701, 8, 9, 10 });
     }
 
     public static void Main(string[] args)

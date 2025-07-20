@@ -60,8 +60,19 @@ namespace Edabit_Challenge.Challenges
                 else
                     result[i] = currentChar;
             }
-
             return new string(result);
+        }
+
+        //Create a function that takes an array of numbers and return "Boom!" if the digit 7 appears in the array.Otherwise, return "there is no 7 in the array".
+        public string SevenBoom(int[] arr)
+        {
+            foreach (var number in arr)
+            {
+                if (number % 7 == 0 || number.ToString().Contains('7'))
+                    return "Boom!";
+            }
+
+            return "There is no 7 in the array";
         }
     }
 }
