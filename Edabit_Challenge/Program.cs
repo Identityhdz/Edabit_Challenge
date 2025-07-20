@@ -14,7 +14,7 @@ public class Program
     public void Run()
     {
         _service.IndexOfCapitals("Radfor YN");
-        _service.countTrue(new bool[] { false, false, true });
+        _service.CountTrue(new bool[] { false, false, true });
         _service.ReverseAndNot(123);
         _service.HackerSpeak("Hello World");
         _service.SevenBoom(new int[] { 11, 22, 31, 4, 5, 6, 701, 8, 9, 10 });

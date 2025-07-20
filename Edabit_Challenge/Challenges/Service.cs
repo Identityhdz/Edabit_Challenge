@@ -19,7 +19,7 @@ namespace Edabit_Challenge.Challenges
         }
 
         //Create a function which returns the number of true values there are in an array.
-        public int countTrue(bool[] bools)
+        public int CountTrue(bool[] bools)
         {
             var count = 0;
             for (var i = 0; i < bools.Length; i++)

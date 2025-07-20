@@ -3,7 +3,7 @@
     public interface IService
     {
         public int[] IndexOfCapitals(string letters);
-        public int countTrue(bool[] bools);
+        public int CountTrue(bool[] bools);
         public string ReverseAndNot(int numbers);
         public string HackerSpeak(string str);
         public string SevenBoom(int[] arr);
